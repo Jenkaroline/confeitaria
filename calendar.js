@@ -96,7 +96,7 @@ nextMonth.addEventListener('click', () => {
 
 // Abre o modal para adicionar evento
 function openModal(dateKey) {
-  selectedDateElement.textContent = `Data Selecionada: ${dateKey}`;
+  selectedDateElement.textContent = `Data: ${dateKey}`;
   eventInput.value = ''; // Limpa o input
   eventModal.style.display = 'flex';
 

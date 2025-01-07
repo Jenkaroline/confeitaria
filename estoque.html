@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <title>Rô Bolos</title>
+</head>
+<body>
+    <header>
+        <img src="img/voltar-icon.png" id="img-voltar">
+        <div style="width: 100vw; display: flex;
+         flex-direction: row; 
+         align-items: center; 
+         justify-content: space-between;">
+            <h1> Estoque</h1>
+            <div class="perfil-adm"> <img src="img/perfil-icon.png">  Seu nome </div>
+        </div>
+    </header>
+    <main>
+        <div class="menu-div">
+        <ul>
+           <li id="item-menu"> <a href="index.html"> <img src="img/carrinho.png"> Pedidos </a> </li>
+           <li id="item-menu"> <a href="estoque.html" style="color: rgb(168, 76, 76);"> <img src="img/caixa-red.png">  Estoque </a> </li>
+           <li id="item-menu"> <a href="graficos.html"> <img src="img/grafico.png"> Estatísticas </a></li>
+           <li id="item-menu"> <a href="time.html"> <img src="img/time.png"> Time </a></li>
+        </ul> 
+        </div> 
+        <div class="content-div" id="contentEstoque">
+            <table>
+                <ul>
+                    <tr> 
+                        <th> Produto </th>
+                        <th> Preço </th>
+                        <th> Quantidade </th>
+                    </tr>
+                    <tr>
+                        <td> Manteiga </td>
+                        <td> 5 </td>
+                        <td> 10 </td>
+                    </tr>
+                </ul>
+            </table>
+        </div>
+    </main>
+    <script src="calendar.js"></script>
+</body>
+</html>
