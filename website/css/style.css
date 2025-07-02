@@ -1,0 +1,112 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+*{
+    box-sizing: border-box;
+    font-family: "Montserrat", sans-serif;
+    color: #333;
+    font-size: 16px;
+    text-decoration: none;
+}
+body{
+    background-color: antiquewhite;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+}
+/*navbar*/
+header{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    height: 10vh;
+    background-color: #664343;
+    font-size: 1em;
+    font-weight: bold;
+    position: fixed;
+}
+nav{
+    display: flex;
+    flex: 1;
+    gap: 20px;
+    justify-content: center;
+}
+nav a {
+    color: rgba(255, 255, 255, 0.705);
+}
+nav a:hover {
+    color: rgb(255, 255, 255);
+}
+main{
+    margin: 0;
+}
+section{
+    background-color: rgb(230, 198, 198);
+    height: 100vh;
+}
+
+/*home*/
+#home{
+    display: flex;
+    flex-direction: row;
+}
+#home .left, .right{
+    height: 100vh;
+    width: 50vw;
+    flex: 1;
+}
+#home .left{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+#home .left h1{
+    font-size: 5em;
+    margin: 0;
+    padding: 0 20px;
+    color: #664343;
+}
+#home .left p{
+    font-size: 1em;
+    margin: 0;
+    padding: 0 20px;
+    color: 664343;
+}
+#home .left button{
+    width: 150px;
+    height: 50px;
+    background-color: #741b1b;
+    border: none;
+    border-radius: 5px;
+    font-size: 1em;
+    color: #eee5e5;
+    cursor: pointer;
+    margin: 20px 0 0 20px;
+}
+#home .left button:hover{
+    background-color: #ffffff70;
+    color: #741b1b;
+}
+#home .right img{
+    width: 50vw;
+    height: 100vh;
+    background-color: #9dd855;
+    object-fit: cover;
+}
+
+/*sobre nós*/
+
+footer{
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    padding: 10px;
+    height: 15vh;
+    background-color: #664343;
+}
+footer p{
+    color: rgba(255, 255, 255, 0.705);
+    font-size: 0.8em;
+    margin: 0;
+}
